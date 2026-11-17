@@ -1,0 +1,3 @@
+CourseRoute{nom =Semi de Poitiers , distance en km =21.1 , temps en minutes =105 , allure moyenne =4.976303317535545 , kilomètre effort =21.1 , competition=true}
+CourseRoute{nom =Trail des Coteaux , distance en km =25.0 , temps en minutes =180 , allure moyenne =7.2 , kilomètre effort =34.0 , competition=900}
+CourseRoute{nom =VMA 10x400 , distance en km =8.0 , temps en minutes =45 , allure moyenne =5.625 , kilomètre effort =8.0 , competition=10}
