@@ -13,7 +13,7 @@ public class Trail extends Sortie{
 
     @Override
     public String toString() {
-        return super.toString() + String.format("\nNombre dénivelé positif : %s", nDenivelePositif);
+        return super.toString() + String.format("\nDénivelé positif : %sm", nDenivelePositif);
     }
 
     public int getnDenivelePositif() {
