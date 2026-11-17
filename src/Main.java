@@ -3,7 +3,10 @@ public class Main {
         System.out.println("Le projet fonctionne !");
 
         CourseRoute c1 = new CourseRoute("aaa", 12, 15, false);
-        System.out.println(c1.descSortie());
+        //System.out.println(c1.descSortie());
+
+        Trail c2 = new Trail("aaa", 12, 15, 150);
+        //System.out.println(c2.descSortie());
 
         /*
         Carnet carnet = new Carnet();
