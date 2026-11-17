@@ -21,4 +21,15 @@ public class Trail extends Sortie{
                 + "\nKm-effort : " + this.kmEffort();
     }
 
+    public String toString(){
+
+        return '"' + this.nom
+                + "\";" + this.distance
+                + ";" + this.tpsMin
+                + ";" + this.deniv
+                + ";" + this.allureMoy()
+                + ";" + this.kmEffort();
+
+    }
+
 }

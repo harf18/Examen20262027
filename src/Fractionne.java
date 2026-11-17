@@ -16,4 +16,15 @@ public class Fractionne extends Sortie{
                 + "\nKm-effort : " + this.kmEffort();
     }
 
+    public String toString(){
+
+        return '"' + this.nom
+                + "\";" + this.distance
+                + ";" + this.tpsMin
+                + ";" + this.repet
+                + ";" + this.allureMoy()
+                + ";" + this.kmEffort();
+
+    }
+
 }
