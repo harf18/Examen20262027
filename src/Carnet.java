@@ -13,7 +13,7 @@ public class Carnet {
     }
 
     public void lister() {
-        System.out.println("--- " + sorties.size() + " documents dans la mediatheque ---");
+        System.out.println("--- " + sorties.size() + " courses dans le carnet. ---");
         for (Sortie d : sorties) {
             System.out.println(d);
         }
