@@ -10,4 +10,8 @@ public class CourseSurRoute extends Sortie{
     public String toString() {
         return super.toString() + String.format("\nCompetition : %s", competition);
     }
+
+    public boolean isCompetition() {
+        return competition;
+    }
 }

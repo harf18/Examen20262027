@@ -15,4 +15,8 @@ public class Trail extends Sortie{
     public String toString() {
         return super.toString() + String.format("\nNombre dénivelé positif : %s", nDenivelePositif);
     }
+
+    public int getnDenivelePositif() {
+        return nDenivelePositif;
+    }
 }

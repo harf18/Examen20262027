@@ -10,4 +10,8 @@ public class Fractionne extends Sortie{
     public String toString() {
         return super.toString() + String.format("\nNombre de répétitions : %s", nRepetitions);
     }
+
+    public int getnRepetitions() {
+        return nRepetitions;
+    }
 }

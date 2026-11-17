@@ -25,4 +25,16 @@ public abstract class Sortie {
                 this.distance,
                 this.temps);
     }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public int getTemps() {
+        return temps;
+    }
 }
