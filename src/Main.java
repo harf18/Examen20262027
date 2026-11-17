@@ -5,6 +5,8 @@ public class Main {
 
         Carnet carnet = new Carnet();
 
+        //j'ai ajouté des f derrière les float
+
         carnet.ajouter(new CourseRoute("Semi de Poitiers", 21.1f, 105, true));
         carnet.ajouter(new Trail("Trail des Coteaux", 25.0f, 180, 900));
         carnet.ajouter(new Fractionne("VMA 10x400", 8.0f, 45, 10));
