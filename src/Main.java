@@ -8,6 +8,9 @@ public class Main {
         Trail c2 = new Trail("aaa", 12, 15, 150);
         //System.out.println(c2.descSortie());
 
+        Fractionne c3 = new Fractionne("aaa", 12, 15, 150);
+        System.out.println(c3.descSortie());
+
         /*
         Carnet carnet = new Carnet();
 
