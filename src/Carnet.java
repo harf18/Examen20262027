@@ -27,6 +27,8 @@ public class Carnet {
         return total;
     }
 
+
+    // Je n'ai pas réussi à séparer le calcul entre le trail et les deux autres types de course.
     public int kmEffortTotal() {
         int totalEf = 0;
         for (Sortie d : sorties) {

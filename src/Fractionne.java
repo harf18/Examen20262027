@@ -16,7 +16,7 @@ public class Fractionne extends Sortie {
 
     @Override
     public String toString() {
-        return "La sortie de type " + nom + " fait " + distance + " km et dure " + temps + " pages. Le nombre de repetitions est de " + repet + " m.";
+        return "La sortie de type " + nom + " fait " + distance + " km et dure " + temps + " pages. Le nombre de repetitions est de " + repet;
     }
 
     @Override
