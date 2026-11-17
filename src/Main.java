@@ -2,6 +2,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Le projet fonctionne !");
 
+        CourseRoute c1 = new CourseRoute("aaa", 12, 15, false);
+        System.out.println(c1.descSortie());
+
         /*
         Carnet carnet = new Carnet();
 
