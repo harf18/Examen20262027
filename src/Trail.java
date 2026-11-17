@@ -7,11 +7,18 @@ public class Trail extends Sortie{
         this.deniv = deniv;
     }
 
+    @Override
+    public double kmEffort(){
+        return distance + (deniv/100);
+    }
+
     public String descSortie(){
         return "Nom de la course : " + this.nom
                 + "\nDistance : " + this.distance
                 + "km\nTemps de la course : " + this.tpsMin
-                + " minutes\nDénivelé : " + this.deniv + "m";
+                + " minutes\nDénivelé : " + this.deniv + "m"
+                + "\nAllure moyenne : " + this.allureMoy()
+                + "\nKm-effort : " + this.kmEffort();
     }
 
 }

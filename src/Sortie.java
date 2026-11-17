@@ -10,6 +10,14 @@ public abstract class Sortie {
         this.tpsMin = tpsMin;
     }
 
+    public double allureMoy(){
+        return this.tpsMin / this.distance;
+    }
+
+    public double kmEffort(){
+        return distance;
+    }
+
     abstract String descSortie();
 
 }

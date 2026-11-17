@@ -11,7 +11,9 @@ public class CourseRoute extends Sortie{
         return "Nom de la course : " + this.nom
                 + "\nDistance : " + this.distance
                 + "km\nTemps de la course : " + this.tpsMin
-                + " minutes\nCompétition : " + (compet == true ? "Oui" : "Non");
+                + " minutes\nCompétition : " + (compet == true ? "Oui" : "Non")
+                + "\nAllure moyenne : " + this.allureMoy()
+                + "\nKm-effort : " + this.kmEffort();
     }
 
 }

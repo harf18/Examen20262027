@@ -11,7 +11,9 @@ public class Fractionne extends Sortie{
         return "Nom de la course : " + this.nom
                 + "\nDistance : " + this.distance
                 + "km\nTemps de la course : " + this.tpsMin
-                + " minutes\nNombre de répétitions : " + this.repet;
+                + " minutes\nNombre de répétitions : " + this.repet
+                + "\nAllure moyenne : " + this.allureMoy()
+                + "\nKm-effort : " + this.kmEffort();
     }
 
 }

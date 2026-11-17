@@ -5,11 +5,12 @@ public class Main {
         CourseRoute c1 = new CourseRoute("aaa", 12, 15, false);
         //System.out.println(c1.descSortie());
 
-        Trail c2 = new Trail("aaa", 12, 15, 150);
+        Trail c2 = new Trail("aaa", 12.5, 15, 150);
         //System.out.println(c2.descSortie());
+        System.out.println(c2.distance + (c2.deniv/100));
 
         Fractionne c3 = new Fractionne("aaa", 12, 15, 150);
-        System.out.println(c3.descSortie());
+        //System.out.println(c3.descSortie());
 
         /*
         Carnet carnet = new Carnet();
