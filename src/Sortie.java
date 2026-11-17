@@ -19,7 +19,7 @@ public abstract class Sortie {
 
     @Override
     public String toString() {
-        return String.format("%s : %s\nDistance : %f\nDuree : %s",
+        return String.format("%s : %s\nDistance : %.2f km\nDuree : %s minute(s)",
                 this.getClass().getName(),
                 this.nom,
                 this.distance,
